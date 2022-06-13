@@ -22,3 +22,13 @@ body {
     text-rendering: optimizeSpeed;
     overflow-x: hidden;
 }
+
+button,
+input {
+    border: none;
+    outline: none;
+}
+
+a[href] {
+    text-decoration: none;
+}
