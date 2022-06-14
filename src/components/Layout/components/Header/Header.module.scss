@@ -14,6 +14,10 @@
     justify-content: space-between;
 }
 
+.search-result {
+    width: 361px;
+}
+
 .search {
     position: relative;
     display: flex;
@@ -69,5 +73,25 @@
     color: rgba(22, 24, 35, 0.34);
     &:hover {
         background: rgba(22, 24, 35, 0.03);
+    }
+}
+
+.search-account {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: rgba(22, 24, 35, 0.5);
+    padding: 5px 12px;
+}
+
+.actions {
+    width: 271px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+
+    .upload {
+        width: 14px;
+        height: 14px;
+        margin-right: 7px;
     }
 }
